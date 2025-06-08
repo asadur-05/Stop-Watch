@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Functional Stop Watch</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="stopfavicon.png" type="png">
+  </head>
+  <body>
+    <div class="container">
+        <h1>Stop Watch</h1>
+      <div class="stopwatch">
+        <div class="timerDisplay">00 : 00 : 00</div>
+      </div>
+      <div class="buttons">
+        <button class="btn" id="stop" style="--clr: rgb(255, 0, 0)">Stop</button>
+
+        <button class="btn" id="start" style="--clr:  rgb(0, 255, 13)">Start</button>
+
+        <button class="btn" id="reset" style="--clr: #0026ff">Reset</button>
+        <button id="lap" class="btn" style="--clr: #ae00ff">Lap</button>
+      </div>
+      <ul id="lapList">
+
+      </ul>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
